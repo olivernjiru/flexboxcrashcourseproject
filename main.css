@@ -16,3 +16,7 @@ body {
     background: #a1c3ff;
 }
 
+img {
+    max-width: 100%;
+}
+
