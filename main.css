@@ -74,3 +74,26 @@ h2 {
     margin-left: 20px;
 }
 
+/* Header */
+.header {
+    background: #0a51cc;
+    color: #fff;
+    min-height: 400px;
+}
+
+.header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.header img {
+    max-width: 400px;
+}
+
+.header .container {
+    display: flex;
+    /* To align vertically in the cross axis */
+    align-items: center;
+    justify-content: space-between;
+}
