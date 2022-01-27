@@ -97,3 +97,23 @@ h2 {
     align-items: center;
     justify-content: space-between;
 }
+
+/* Boxes */
+.boxes .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    flex: 1;
+    background: #0151cc;
+    color: #fff;
+    border-radius: 10px;
+    margin: 20px 10px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
+    padding: 15px 20px;
+}
+
+.box i {
+    margin-right: 10px;
+}
