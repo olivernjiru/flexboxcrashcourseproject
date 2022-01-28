@@ -22,7 +22,7 @@ img {
     max-width: 100%;
 }
 
-/* h1 and h2
+/* h1 and h2 */
 h1,
 h2 {
     margin-bottom: 15px;
@@ -42,11 +42,13 @@ h2 {
     height: 60px;
 }
 
+/* Navbar Logo */
 .navbar .logo {
     font-size: x-large;
     font-weight: bold;
 }
 
+/* Navbar Container */
 .navbar .container {
     display: flex;
     justify-content: space-between;
@@ -54,6 +56,7 @@ h2 {
     height: 100%;
 }
 
+/* Navbar a */
 .navbar a {
     color: #fff;
     text-decoration: none;
@@ -61,15 +64,18 @@ h2 {
     font-weight: bold;
 }
 
+/* Navbar a hover */
 .navbar a:hover {
     color: lightblue
 }
 
+/* Navbar Unordered List */
 .navbar ul {
     display: flex;
     list-style: none;
 }
 
+/* Navbar Unordered List List */
 .navbar ul li {
     margin-left: 20px;
 }
@@ -81,16 +87,19 @@ h2 {
     min-height: 400px;
 }
 
+/* Header h1 */
 .header h1 {
     font-size: 3rem;
     font-weight: bold;
     line-height: 1.2;
 }
 
+/* Header Image */
 .header img {
     max-width: 400px;
 }
 
+/* Header Container */
 .header .container {
     display: flex;
     /* To align vertically in the cross axis */
@@ -104,6 +113,7 @@ h2 {
     justify-content: space-between;
 }
 
+/* Individual Box */
 .box {
     flex: 1;
     background: #0151cc;
@@ -114,13 +124,14 @@ h2 {
     padding: 15px 20px;
 }
 
+/* Box I tag */
 .box i {
     margin-right: 10px;
 }
 
 /* Media Query  for smaller screens */
 @media(max-width: 768px) {
-    /* Header */
+    /* Header Container */
     .header .container {
         /* To rearrange the items into a column */
         flex-direction: column;
@@ -128,7 +139,7 @@ h2 {
         text-align: center;
     }
 
-    /* Boxes */
+    /* Boxes Container */
     .boxes .container {
         /* To stack the items on top of each other */
         display: block;
