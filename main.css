@@ -117,3 +117,21 @@ h2 {
 .box i {
     margin-right: 10px;
 }
+
+/* Media Query  for smaller screens */
+@media(max-width: 768px) {
+    /* Header */
+    .header .container {
+        /* To rearrange the items into a column */
+        flex-direction: column;
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    /* Boxes */
+    .boxes .container {
+        /* To stack the items on top of each other */
+        display: block;
+        text-align: center;
+    }
+}
